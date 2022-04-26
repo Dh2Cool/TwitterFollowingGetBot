@@ -4,10 +4,10 @@ from openpyxl import load_workbook,Workbook
 from os.path import exists
 import os
 
-consumer_key = "otGx8bQYhUQi7md46ZTgoP4sl"
-consumer_secret = "OAzkurTIwQhPFoGDdtVKxU8JvTg8Bw17iGp3NvSFyu4OeOjr99"
-access_token = "767751198552186880-si284W5JFiBZsOpfgp1hGHFPlONK6Hy"
-access_token_secret = "6YcnoPsuiW7blPR3pynU3nVFK9KSgX07HyBK7SZ9USQQ6"
+consumer_key = "<api-consumer-key>" #from twitter api
+consumer_secret = "<api-consumer-secret>"
+access_token = "<access-token>"
+access_token_secret = "<access-secret-token>"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
